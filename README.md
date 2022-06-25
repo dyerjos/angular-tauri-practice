@@ -1,14 +1,5 @@
 [![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tauri.svg" width="50">
 
-![Maintained][maintained-badge]
-[![Make a pull request][prs-badge]][prs]
-[![License][license-badge]](LICENSE.md)
-
-[![Build][tauri-build-badge]][tauri-build]
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
 
 # Introduction
 
@@ -58,7 +49,7 @@ npm install -g @angular/cli
 
 Voila! You can use your Angular + Tauri app in a local development environment with hot reload!
 
-The application code is managed by `src-tauri/main.rs`. \ 
+The application code is managed by `src-tauri/main.rs`. \
 In this sample, the app runs with a simple Angular App (http://localhost:4200), and a webView managed by Tauri.
 
 ## Project structure
