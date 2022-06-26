@@ -119,5 +119,7 @@
       }
     }
   },
-  "defaultProject": "angular-tauri"
+  "cli": {
+    "analytics": false
+  }
 }
