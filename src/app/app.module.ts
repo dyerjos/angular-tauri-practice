@@ -16,6 +16,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // AoT requires an exported function for factories
 const httpLoaderFactory = (http: HttpClient): TranslateHttpLoader =>  new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -35,7 +36,8 @@ const httpLoaderFactory = (http: HttpClient): TranslateHttpLoader =>  new Transl
         useFactory: httpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
