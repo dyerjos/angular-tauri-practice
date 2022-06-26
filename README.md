@@ -73,22 +73,3 @@ Maybe you only want to execute the application in the browser with hot reload? J
 
 **Your application is optimised. Only /dist folder is included in the final bundle.**
 
-## Branch & Packages version
-
-- Angular 13 & Tauri 1.RC : (main)
-
-[maintained-badge]: https://img.shields.io/badge/maintained-yes-brightgreen
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license]: https://github.com/maximegris/angular-tauri/blob/main/LICENSE.md
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-red.svg
-[prs]: http://makeapullrequest.com
-
-[tauri-build-badge]: https://github.com/maximegris/angular-tauri/workflows/Tauri%20Build/badge.svg
-[tauri-build]: https://github.com/maximegris/angular-tauri/actions?query=workflow%3A%22Tauri+Build%22
-
-[github-watch-badge]: https://img.shields.io/github/watchers/maximegris/angular-tauri.svg?style=social
-[github-watch]: https://github.com/maximegris/angular-tauri/watchers
-[github-star-badge]: https://img.shields.io/github/stars/maximegris/angular-tauri.svg?style=social
-[github-star]: https://github.com/maximegris/angular-tauri/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20angular-tauri!%20https://github.com/maximegris/angular-tauri%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/maximegris/angular-tauri.svg?style=social

@@ -9,6 +9,7 @@ import {TauriService} from './core/services';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  title = 'Tour of Heroes';
   constructor(
     private tauriService: TauriService,
     private translate: TranslateService
